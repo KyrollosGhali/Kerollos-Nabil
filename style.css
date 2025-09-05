@@ -88,7 +88,7 @@ body {
     background-color: var(--bg-color);
     color: var(--text-color);
 }
-h2
+h1,h2
 {
     text-shadow: 0 0 25px var(--main-color);
     font-size: 5rem;
@@ -127,6 +127,14 @@ a:hover {
     color: var(--main-color);
     transform: scale(1.1);
     text-shadow: 0 0 35px var(--main-color);
+}
+#typewriter {
+    font-size: 6.5rem;
+    color: var(--secondary-color);
+    text-align: center;
+    margin-top: 1rem;
+    text-shadow: 0 0 25px var(--main-color);
+    transition: all 0.3s ease;
 }
 /* 2. Navbar styles */
 .logo {
